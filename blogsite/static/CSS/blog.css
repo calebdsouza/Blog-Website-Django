@@ -1,0 +1,119 @@
+body {
+    background-attachment: fixed;
+    background: #0F2F5B;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    width: 98vw !important;
+    
+	overflow-x: hidden;
+    font-size: 13px;
+    line-height: 24px;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #666;
+}
+::-webkit-scrollbar {
+    border-radius: 20px;
+    width: 7px;
+}
+::-webkit-scrollbar-track-piece {
+    left: 80px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 183, 255, 0.8);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+::-webkit-resizer {
+    background-color: blue;
+}
+
+#wrapper { 
+ /*height: 100vh;
+    width: 100vw;*/
+    opacity: 0;
+    -webkit-animation: fadein 5s;  
+    -moz-animation: fadein 5s;
+    -ms-animation: fadein 5s;
+    -o-animation: fadein 5s;
+    animation: fadein 5s;
+    -webkit-animation-delay: 2s; 
+    -moz-animation-delay: 2s;
+    -o-animation-delay: 2s;
+    animation-delay: 2s;
+    animation-fill-mode:forwards;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-moz-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-ms-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-o-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+h1 a {
+    color: aliceblue;
+    -webkit-text-stroke: 1px #49BCFF;
+    text-stroke: 1px #49BCFF;
+    display: block;
+    font-size: 2.3vh;
+    /*font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+	line-height: 6vh;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    z-index: 2;
+}
+
+h1 a:hover {
+     color: #49BCFF;
+}
+
+p {
+    color:azure; 
+}
+
+div {
+    margin: 1vh 4vw;
+}
