@@ -133,6 +133,7 @@ h1 a:hover {
     border-radius: 25px;
     padding: 0 3vw;
     margin: 3vh 0;
+    width: 80vw!important;
 }
 
 p {
@@ -141,4 +142,35 @@ p {
 
 .container {
     margin: 0 8vw !important;
+}
+.glyphicon-plus {
+    margin-top: -2vh !important;
+    margin-left: 1vh !important;
+}
+
+form {
+    margin: 2vh 2vw;
+}
+
+.form-title-input { 
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: rgb(0, 183, 255);
+    height: 3vh;
+    width: 40vw;
+}
+label {
+    position: relative;
+    display: block;
+    width: 100vw !important ;
+}
+.form-text-input { 
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 15px;
+    color: rgb(0, 183, 255);
+    height: 40vh;
+    width: 60vw;
+
 }
