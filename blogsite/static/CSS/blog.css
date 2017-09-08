@@ -87,7 +87,10 @@ body {
         opacity: 1;
     }
 }
-
+#name { 
+    text-decoration: none;
+    font-size: 0.2em;
+}
 h1 a {
     color: aliceblue;
     -webkit-text-stroke: 1px #49BCFF;
@@ -115,5 +118,5 @@ p {
 }
 
 .post {
-    margin: 1vh 4vw;
+    margin: 1vh 6vw;
 }
