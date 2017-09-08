@@ -99,7 +99,7 @@ body {
     /*font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
     letter-spacing: 2px;
 	line-height: 6vh;
-    margin: 2vh 0;
+    margin: 4vh 0;
     position: relative;
     text-align: center;
     text-transform: uppercase;
@@ -128,10 +128,17 @@ h1 a:hover {
      color: #49BCFF;
 }
 
+.post { 
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 0 3vw;
+    margin: 3vh 0;
+}
+
 p {
     color:azure; 
 }
 
 .container {
-    margin: 0 6vw;
+    margin: 0 8vw !important;
 }
