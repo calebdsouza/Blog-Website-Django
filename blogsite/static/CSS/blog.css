@@ -114,13 +114,6 @@ p {
     color:azure; 
 }
 
-div {
+.post {
     margin: 1vh 4vw;
-}
-
-.date  {
-    position: relative; 
-    display: block; 
-    float: right;
-    margin-left: 50%;
 }
