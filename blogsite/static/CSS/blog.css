@@ -124,6 +124,10 @@ body {
     z-index: 2;
 }
 
+#title:hover { 
+    color: #49BCFF;
+}
+
 h1 a:hover {
      color: #49BCFF;
 }
