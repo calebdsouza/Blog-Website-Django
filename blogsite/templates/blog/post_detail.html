@@ -2,9 +2,11 @@
 
 {% block content %}
     <div class="post" style = "border: none;">
-        
+        {% if user.is_authenticated %}
             <a class="btn btn-default" href="{% url 'post_edit' pk=post.pk %}"><span class="glyphicon glyphicon-pencil"></span></a>
-      
+        {% else %}
+            <a class="btn btn-default" href="https://cd7.pythonanywhere.com/admin/"><span class="glyphicon glyphicon-pencil"></span></a>
+        {% endif %}  
         <h1>{{ post.title }}</h1>
         {% if post.published_date %}
             <div class="date">
