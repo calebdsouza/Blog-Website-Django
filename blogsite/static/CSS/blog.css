@@ -145,7 +145,7 @@ p {
 }
 .glyphicon-plus {
     margin-top: -2vh !important;
-    margin-left: 1vh !important;
+    margin-left: 1vw !important;
 }
 
 form {
@@ -173,4 +173,8 @@ label {
     height: 40vh;
     width: 60vw;
 
+}
+
+#logout{ 
+    margin-left: 80vw !important;
 }

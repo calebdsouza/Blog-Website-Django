@@ -13,6 +13,11 @@
     </div>
     {% if user.is_authenticated %}
         <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
+        <button id = 'logout' type="button" class="btn btn-default btn-sm">
+          <a href="https://cd7.pythonanywhere.com/admin/logout/" class="top-menu"><span class="glyphicon glyphicon-log-out"></span> Log out</a>
+        </button>
+    {% else %}
+        <a href="https://cd7.pythonanywhere.com/admin" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
     {% endif %}
     <div class="content container">
         <div class="row">
