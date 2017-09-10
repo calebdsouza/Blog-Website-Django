@@ -183,8 +183,8 @@ label {
     margin-left: 80vw !important;
 }
 
-footer {
-    bottom: 0%;
+#footer {
+    bottom: 0% !important;
     color: azure;
     position: relative;
     display: block;
