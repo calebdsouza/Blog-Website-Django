@@ -185,9 +185,9 @@ label {
 
 #footer {
     bottom: 0% !important;
-    color: azure;
-    position: relative;
-    display: block;
-    margin: 0 auto;
-    width: 190px;
+    color: azure !important;
+    position: relative !important;
+    display: block !important;
+    margin: 0 auto !important;
+    width: 190px !important;
 }
