@@ -182,3 +182,12 @@ label {
 #logout{ 
     margin-left: 80vw !important;
 }
+
+footer {
+    bottom: 0%;
+    color: azure;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 190px;
+}
